@@ -4,7 +4,7 @@ const SearchBox = ({ onSearch, onButtonClick }) => {
 
   const handleChange = (event) => {
     setInputValue(event.target.value);
-    `<q>jewiu</q>`(event.target.value);
+    onSearch(event.target.value);
   };
 
   return (
